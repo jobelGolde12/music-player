@@ -51,15 +51,9 @@ const index = () => {
             {/* BOTTOM TEXT & BUTTON  */}
             <View className="mt-4 relative">
               <Text className="text-3xl text-white font-RPBold text-center">
-                Stream Your Favorite Music With{" "}
-                <Text className="text-secondary-100">
-                  Rhythm<Text className="text-secondary-200">oX</Text>
-                </Text>
+                Stream Your Favorite Music With music player
               </Text>
-              <Text className="text-gray-400 mt-4 text-center font-RPLight">
-                Stream Music Anywhere, Anytime With RhythmoX, Connect your
-                Navidrome Server and Enjoy Your Music!
-              </Text>
+             
               <Image
                 source={require("@/assets/images/path.png")}
                 className="w-[136px] h-[15px] absolute bottom-[150px] -right-1"
