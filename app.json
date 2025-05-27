@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "music-player",
+    "slug": "music-player",
+    "owner": "jobelgolde",
+    "scheme": "RhythmoX",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ecarry.RhythmoX",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000"
+      },
+      "package": "com.ecarry.RhythmoXmusicplayer"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "477e3d00-8838-4af2-a7a1-edb1a7d51aaf"
+      }
+    }
+  }
+}
